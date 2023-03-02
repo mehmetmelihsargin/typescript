@@ -1,7 +1,10 @@
 function App() {
+  const name :string = 'A';
+  const age : number|boolean = 2;
   return (
     <div>
-      Melih
+      {name}
+      {age}
     </div>
   );
 }
